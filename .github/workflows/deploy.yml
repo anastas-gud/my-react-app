@@ -28,8 +28,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # - name: Run linter
-      #   run: npm run lint # Добавляем прогон линтера
+      - name: Run linter
+        run: npm run lint # Добавляем прогон линтера
 
       - name: Build
         run: npm run build
